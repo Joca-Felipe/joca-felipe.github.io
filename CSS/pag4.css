@@ -1,0 +1,50 @@
+.grid2{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    margin: 2%;
+}
+.introducao{
+    padding: 10px;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 25px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.parag{
+    padding: 10px;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 25px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.dhdfoto{
+    padding: 15px;
+    text-align:justify;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+h2{
+    text-align: justify;
+    font-family: 'Times New Roman';
+    background-color:lightskyblue;
+}
+p{
+    text-align: justify;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    text-indent: 25px;
+}
+body{
+    background-image: url("../imagens/Fbranco.jpg");
+    background-size: cover;
+    margin: 25px;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
